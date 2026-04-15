@@ -1,0 +1,26 @@
+{
+  "id": "trang-quan-ly/nhan-vien/README",
+  "title": "Nhân viên",
+  "description": "",
+  "source": "@site/docs/trang-quan-ly/nhan-vien/README.md",
+  "sourceDirName": "trang-quan-ly/nhan-vien",
+  "slug": "/trang-quan-ly/nhan-vien/",
+  "permalink": "/docs/trang-quan-ly/nhan-vien/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/trang-quan-ly/nhan-vien/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "hidden": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Thêm phòng ban",
+    "permalink": "/docs/trang-quan-ly/khach-hang/them-phong-ban"
+  },
+  "next": {
+    "title": "Sửa nhân viên",
+    "permalink": "/docs/trang-quan-ly/nhan-vien/sua-nhan-vien"
+  }
+}

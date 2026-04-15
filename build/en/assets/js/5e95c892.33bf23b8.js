@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_360_invoice_docs=self.webpackChunk_360_invoice_docs||[]).push([["668"],{6569(e,s,c){c.r(s),c.d(s,{default:()=>d});var r=c(4848);c(6540);var a=c(4164),n=c(4308),u=c(8287),i=c(2831),o=c(1085);function d(e){return(0,r.jsx)(n.e3,{className:(0,a.A)(u.G.wrapper.docsPages),children:(0,r.jsx)(o.A,{children:(0,i.v)(e.route.routes)})})}}}]);

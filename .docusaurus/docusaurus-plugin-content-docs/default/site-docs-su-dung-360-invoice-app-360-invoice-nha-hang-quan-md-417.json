@@ -1,0 +1,27 @@
+{
+  "id": "su-dung-360invoice/app-360invoice/nha-hang-quan",
+  "title": "Nhà Hàng/Quán",
+  "description": "1. Cách thêm món mới vào Menu",
+  "source": "@site/docs/su-dung-360invoice/app-360invoice/nha-hang-quan.md",
+  "sourceDirName": "su-dung-360invoice/app-360invoice",
+  "slug": "/su-dung-360invoice/app-360invoice/nha-hang-quan",
+  "permalink": "/en/docs/su-dung-360invoice/app-360invoice/nha-hang-quan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/su-dung-360invoice/app-360invoice/nha-hang-quan.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Thời trang - Giày dép - Làm đẹp",
+    "permalink": "/en/docs/su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep"
+  },
+  "next": {
+    "title": "Spa - Salon - Massage - Làm đẹp",
+    "permalink": "/en/docs/su-dung-360invoice/app-360invoice/spa-salon-massage-lam-dep"
+  }
+}

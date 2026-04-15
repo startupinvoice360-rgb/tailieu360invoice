@@ -1,0 +1,24 @@
+{
+  "id": "s-dung-360invoice/web-360invoice/hang-hoa/tao-hang-hoa",
+  "title": "Tạo hàng hóa",
+  "description": "Bước 1: Từ Trang chủ",
+  "source": "@site/docs/s-dung-360invoice/web-360invoice/hang-hoa/tao-hang-hoa.md",
+  "sourceDirName": "s-dung-360invoice/web-360invoice/hang-hoa",
+  "slug": "/s-dung-360invoice/web-360invoice/hang-hoa/tao-hang-hoa",
+  "permalink": "/docs/s-dung-360invoice/web-360invoice/hang-hoa/tao-hang-hoa",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/s-dung-360invoice/web-360invoice/hang-hoa/tao-hang-hoa.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tạo đơn nhập hàng",
+    "permalink": "/docs/s-dung-360invoice/web-360invoice/hang-hoa/tao-don-nhap-hang"
+  },
+  "next": {
+    "title": "Hướng dẫn đăng nhập",
+    "permalink": "/docs/s-dung-360invoice/web-360invoice/huong-dan-dang-nhap"
+  }
+}

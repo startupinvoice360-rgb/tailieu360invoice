@@ -1,0 +1,26 @@
+{
+  "id": "s-dung-360invoice/web-360invoice/kho/danh-sach-huy-kho",
+  "title": "Danh sách hủy kho",
+  "description": "Quản lý các kho đã hủy một cách nhanh chóng",
+  "source": "@site/docs/s-dung-360invoice/web-360invoice/kho/danh-sach-huy-kho.md",
+  "sourceDirName": "s-dung-360invoice/web-360invoice/kho",
+  "slug": "/s-dung-360invoice/web-360invoice/kho/danh-sach-huy-kho",
+  "permalink": "/docs/s-dung-360invoice/web-360invoice/kho/danh-sach-huy-kho",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/s-dung-360invoice/web-360invoice/kho/danh-sach-huy-kho.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Quản lý các kho đã hủy một cách nhanh chóng"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kho",
+    "permalink": "/docs/s-dung-360invoice/web-360invoice/kho/"
+  },
+  "next": {
+    "title": "Danh sách kiểm kho",
+    "permalink": "/docs/s-dung-360invoice/web-360invoice/kho/danh-sach-kiem-kho"
+  }
+}

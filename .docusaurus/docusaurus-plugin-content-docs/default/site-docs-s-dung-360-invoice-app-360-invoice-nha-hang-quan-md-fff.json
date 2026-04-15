@@ -1,0 +1,24 @@
+{
+  "id": "s-dung-360invoice/app-360invoice/nha-hang-quan",
+  "title": "Nhà Hàng/Quán",
+  "description": "1. Cách thêm món mới vào Menu",
+  "source": "@site/docs/s-dung-360invoice/app-360invoice/nha-hang-quan.md",
+  "sourceDirName": "s-dung-360invoice/app-360invoice",
+  "slug": "/s-dung-360invoice/app-360invoice/nha-hang-quan",
+  "permalink": "/docs/s-dung-360invoice/app-360invoice/nha-hang-quan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/s-dung-360invoice/app-360invoice/nha-hang-quan.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Khu vui chơi",
+    "permalink": "/docs/s-dung-360invoice/app-360invoice/khu-vui-choi"
+  },
+  "next": {
+    "title": "Nước hoa - Mỹ Phẩm - Skincare",
+    "permalink": "/docs/s-dung-360invoice/app-360invoice/nuoc-hoa-my-pham-skincare"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gioiThieuDocs",
+  "title": "Giới thiêu",
+  "description": "Nền tảng giúp các cá nhân và doanh nghiệp quản lý kinh doanh và bán hàng online siêu tốc - chuyên nghiệp - hiệu quả.",
+  "source": "@site/docs/gioiThieuDocs.md",
+  "sourceDirName": ".",
+  "slug": "/gioiThieuDocs",
+  "permalink": "/docs/gioiThieuDocs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/gioiThieuDocs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Nền tảng giúp các cá nhân và doanh nghiệp quản lý kinh doanh và bán hàng online siêu tốc - chuyên nghiệp - hiệu quả."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5. Cam kết Đồng hành & Kênh Hỗ trợ",
+    "permalink": "/docs/gioi-thieu/cam-ket-dong-hanh-and-kenh-ho-tro"
+  },
+  "next": {
+    "title": "App 360Invoice",
+    "permalink": "/docs/s-dung-360invoice/app-360invoice/"
+  }
+}

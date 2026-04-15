@@ -1,0 +1,146 @@
+{
+  "/en/blog-39c": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [],
+    "__props": "22f9ffc3"
+  },
+  "/en/markdown-page-211": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "4c678320"
+  },
+  "/en/docs-c40": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/en/docs-224": {
+    "__comp": "a7bd4aaa",
+    "__props": "0abf49b1"
+  },
+  "/en/docs-436": {
+    "__comp": "a94703ab"
+  },
+  "/en/docs/category/hướng-dẫn-sử-dụng-app-360invoice-1a9": {
+    "__comp": "14eb3368",
+    "__props": "a8c35413"
+  },
+  "/en/docs/category/hướng-dẫn-sử-dụng-website-360invoice-11b": {
+    "__comp": "14eb3368",
+    "__props": "8f231a2d"
+  },
+  "/en/docs/category/sử-dụng-360invoice-0ba": {
+    "__comp": "14eb3368",
+    "__props": "da5c775a"
+  },
+  "/en/docs/category/tổng-quan-về-360invoice-f14": {
+    "__comp": "14eb3368",
+    "__props": "ac9e2715"
+  },
+  "/en/docs/gioi-thieu/360-invoice-la-gi-4b2": {
+    "__comp": "17896441",
+    "content": "9c4556ca"
+  },
+  "/en/docs/gioi-thieu/360invoice-danh-cho-ai-88c": {
+    "__comp": "17896441",
+    "content": "771b7899"
+  },
+  "/en/docs/gioi-thieu/cam-ket-dong-hanh-and-kenh-ho-tro-afd": {
+    "__comp": "17896441",
+    "content": "d7c3f6f1"
+  },
+  "/en/docs/gioi-thieu/gia-tri-cot-loi-ma-360invoice-mang-lai-896": {
+    "__comp": "17896441",
+    "content": "3d841dc5"
+  },
+  "/en/docs/gioi-thieu/intro-22c": {
+    "__comp": "17896441",
+    "content": "9fee1ff8"
+  },
+  "/en/docs/gioi-thieu/tong-quan-he-sinh-thai-tinh-nang-ab6": {
+    "__comp": "17896441",
+    "content": "0634f185"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/dang-nhap-e04": {
+    "__comp": "17896441",
+    "content": "6a525da2"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/dang-xuat-ad4": {
+    "__comp": "17896441",
+    "content": "d9d025df"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/dich-vu-giat-la-0d2": {
+    "__comp": "17896441",
+    "content": "41861c23"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/dien-may-dien-thoai-laptop-dien-tu-so-1d4": {
+    "__comp": "17896441",
+    "content": "04a9968f"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/giao-duc-day-hoc-gia-su-trung-tam-de9": {
+    "__comp": "17896441",
+    "content": "bf14ad9a"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/hieu-thuoc-quay-thuoc-f09": {
+    "__comp": "17896441",
+    "content": "f35ab4e0"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/khu-vui-choi-2f5": {
+    "__comp": "17896441",
+    "content": "1983b125"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/nha-hang-quan-d6e": {
+    "__comp": "17896441",
+    "content": "4174d2f9"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/nuoc-hoa-my-pham-skincare-df7": {
+    "__comp": "17896441",
+    "content": "22c272fc"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/spa-salon-massage-lam-dep-12d": {
+    "__comp": "17896441",
+    "content": "ec5a303a"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/sua-chua-lap-dat-dien-nuoc-dien-lanh-d52": {
+    "__comp": "17896441",
+    "content": "fd3d551a"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/tap-hoa-sieu-thi-dai-ly-aaf": {
+    "__comp": "17896441",
+    "content": "f6d7e34b"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep-d71": {
+    "__comp": "17896441",
+    "content": "75fe4cc8"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/thue-nha-mat-bang-kho-bai-259": {
+    "__comp": "17896441",
+    "content": "cfd3e114"
+  },
+  "/en/docs/su-dung-360invoice/app-360invoice/van-tai-xe-tai-xe-ship-cc5": {
+    "__comp": "17896441",
+    "content": "db6fb0e1"
+  },
+  "/en/docs/su-dung-360invoice/wep-360invoice/huong-dan-dang-nhap-854": {
+    "__comp": "17896441",
+    "content": "606bad63"
+  },
+  "/en/docs/su-dung-360invoice/wep-360invoice/huong-dan-dang-xuat-96b": {
+    "__comp": "17896441",
+    "content": "dc5bbb2e"
+  },
+  "/en/-d3c": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

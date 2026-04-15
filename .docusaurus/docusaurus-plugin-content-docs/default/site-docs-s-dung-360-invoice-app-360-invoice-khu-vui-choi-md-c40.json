@@ -1,0 +1,24 @@
+{
+  "id": "s-dung-360invoice/app-360invoice/khu-vui-choi",
+  "title": "Khu vui chơi",
+  "description": "TỔNG QUAN CHỨC NĂNG",
+  "source": "@site/docs/s-dung-360invoice/app-360invoice/khu-vui-choi.md",
+  "sourceDirName": "s-dung-360invoice/app-360invoice",
+  "slug": "/s-dung-360invoice/app-360invoice/khu-vui-choi",
+  "permalink": "/docs/s-dung-360invoice/app-360invoice/khu-vui-choi",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/s-dung-360invoice/app-360invoice/khu-vui-choi.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hiệu thuốc - Quầy thuốc",
+    "permalink": "/docs/s-dung-360invoice/app-360invoice/hieu-thuoc-quay-thuoc"
+  },
+  "next": {
+    "title": "Nhà Hàng/Quán",
+    "permalink": "/docs/s-dung-360invoice/app-360invoice/nha-hang-quan"
+  }
+}

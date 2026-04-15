@@ -1,0 +1,27 @@
+{
+  "id": "gioi-thieu/intro",
+  "title": "Giới thiệu",
+  "description": "Nền tảng giúp các cá nhân và doanh nghiệp quản lý kinh doanh và bán hàng online siêu tốc - chuyên nghiệp - hiệu quả.",
+  "source": "@site/docs/gioi-thieu/intro.mdx",
+  "sourceDirName": "gioi-thieu",
+  "slug": "/gioi-thieu/intro",
+  "permalink": "/en/docs/gioi-thieu/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/gioi-thieu/intro.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tổng quan về 360Invoice",
+    "permalink": "/en/docs/category/tổng-quan-về-360invoice"
+  },
+  "next": {
+    "title": "Phần mềm 360Invoice là gì?",
+    "permalink": "/en/docs/gioi-thieu/360-invoice-la-gi"
+  }
+}

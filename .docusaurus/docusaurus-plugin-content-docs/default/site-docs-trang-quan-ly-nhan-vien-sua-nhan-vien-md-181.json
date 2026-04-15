@@ -1,0 +1,24 @@
+{
+  "id": "trang-quan-ly/nhan-vien/sua-nhan-vien",
+  "title": "Sửa nhân viên",
+  "description": "Bước 1: Click vào biểu tượng \"Cây bút\" ở danh sách.",
+  "source": "@site/docs/trang-quan-ly/nhan-vien/sua-nhan-vien.md",
+  "sourceDirName": "trang-quan-ly/nhan-vien",
+  "slug": "/trang-quan-ly/nhan-vien/sua-nhan-vien",
+  "permalink": "/docs/trang-quan-ly/nhan-vien/sua-nhan-vien",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/trang-quan-ly/nhan-vien/sua-nhan-vien.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nhân viên",
+    "permalink": "/docs/trang-quan-ly/nhan-vien/"
+  },
+  "next": {
+    "title": "Thêm nhân viên",
+    "permalink": "/docs/trang-quan-ly/nhan-vien/them-nhan-vien"
+  }
+}

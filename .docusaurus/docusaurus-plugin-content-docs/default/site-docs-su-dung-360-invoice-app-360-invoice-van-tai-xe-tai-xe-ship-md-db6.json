@@ -1,0 +1,27 @@
+{
+  "id": "su-dung-360invoice/app-360invoice/van-tai-xe-tai-xe-ship",
+  "title": "Vận tải - Xe tải - Xe ship",
+  "description": "Tổng quan chức năng",
+  "source": "@site/docs/su-dung-360invoice/app-360invoice/van-tai-xe-tai-xe-ship.md",
+  "sourceDirName": "su-dung-360invoice/app-360invoice",
+  "slug": "/su-dung-360invoice/app-360invoice/van-tai-xe-tai-xe-ship",
+  "permalink": "/en/docs/su-dung-360invoice/app-360invoice/van-tai-xe-tai-xe-ship",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/su-dung-360invoice/app-360invoice/van-tai-xe-tai-xe-ship.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dịch vụ giặt là",
+    "permalink": "/en/docs/su-dung-360invoice/app-360invoice/dich-vu-giat-la"
+  },
+  "next": {
+    "title": "Thuê nhà - Mặt bằng - Kho bãi",
+    "permalink": "/en/docs/su-dung-360invoice/app-360invoice/thue-nha-mat-bang-kho-bai"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/en/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/en/docs",
+          "mainDocId": "gioi-thieu/intro",
+          "docs": [
+            {
+              "id": "gioi-thieu/360-invoice-la-gi",
+              "path": "/en/docs/gioi-thieu/360-invoice-la-gi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gioi-thieu/360invoice-danh-cho-ai",
+              "path": "/en/docs/gioi-thieu/360invoice-danh-cho-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gioi-thieu/cam-ket-dong-hanh-and-kenh-ho-tro",
+              "path": "/en/docs/gioi-thieu/cam-ket-dong-hanh-and-kenh-ho-tro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gioi-thieu/gia-tri-cot-loi-ma-360invoice-mang-lai",
+              "path": "/en/docs/gioi-thieu/gia-tri-cot-loi-ma-360invoice-mang-lai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gioi-thieu/intro",
+              "path": "/en/docs/gioi-thieu/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gioi-thieu/tong-quan-he-sinh-thai-tinh-nang",
+              "path": "/en/docs/gioi-thieu/tong-quan-he-sinh-thai-tinh-nang",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/dang-nhap",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/dang-nhap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/dang-xuat",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/dang-xuat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/dich-vu-giat-la",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/dich-vu-giat-la",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/dien-may-dien-thoai-laptop-dien-tu-so",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/dien-may-dien-thoai-laptop-dien-tu-so",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/giao-duc-day-hoc-gia-su-trung-tam",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/giao-duc-day-hoc-gia-su-trung-tam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/hieu-thuoc-quay-thuoc",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/hieu-thuoc-quay-thuoc",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/khu-vui-choi",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/khu-vui-choi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/nha-hang-quan",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/nha-hang-quan",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/nuoc-hoa-my-pham-skincare",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/nuoc-hoa-my-pham-skincare",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/spa-salon-massage-lam-dep",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/spa-salon-massage-lam-dep",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/sua-chua-lap-dat-dien-nuoc-dien-lanh",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/sua-chua-lap-dat-dien-nuoc-dien-lanh",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/tap-hoa-sieu-thi-dai-ly",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/tap-hoa-sieu-thi-dai-ly",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/thue-nha-mat-bang-kho-bai",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/thue-nha-mat-bang-kho-bai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/app-360invoice/van-tai-xe-tai-xe-ship",
+              "path": "/en/docs/su-dung-360invoice/app-360invoice/van-tai-xe-tai-xe-ship",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/wep-360invoice/huong-dan-dang-nhap",
+              "path": "/en/docs/su-dung-360invoice/wep-360invoice/huong-dan-dang-nhap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "su-dung-360invoice/wep-360invoice/huong-dan-dang-xuat",
+              "path": "/en/docs/su-dung-360invoice/wep-360invoice/huong-dan-dang-xuat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tổng-quan-về-360invoice",
+              "path": "/en/docs/category/tổng-quan-về-360invoice",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/sử-dụng-360invoice",
+              "path": "/en/docs/category/sử-dụng-360invoice",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/hướng-dẫn-sử-dụng-website-360invoice",
+              "path": "/en/docs/category/hướng-dẫn-sử-dụng-website-360invoice",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/hướng-dẫn-sử-dụng-app-360invoice",
+              "path": "/en/docs/category/hướng-dẫn-sử-dụng-app-360invoice",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/en/docs/category/tổng-quan-về-360invoice",
+                "label": "Tổng quan về 360Invoice"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

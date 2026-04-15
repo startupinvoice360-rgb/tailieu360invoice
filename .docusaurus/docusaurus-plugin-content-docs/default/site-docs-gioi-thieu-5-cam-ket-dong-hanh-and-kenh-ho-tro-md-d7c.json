@@ -1,0 +1,27 @@
+{
+  "id": "gioi-thieu/cam-ket-dong-hanh-and-kenh-ho-tro",
+  "title": "Cam kết Đồng hành & Kênh Hỗ trợ",
+  "description": "Sự thành công của bạn chính là thước đo cho chất lượng sản phẩm của chúng tôi. Nếu trong quá trình đọc tài liệu và thao tác thực tế có bất kỳ trở ngại nào, đội ngũ chuyên gia của 360Invoice luôn túc trực để hỗ trợ bạn 24/7.",
+  "source": "@site/docs/gioi-thieu/5.-cam-ket-dong-hanh-and-kenh-ho-tro.md",
+  "sourceDirName": "gioi-thieu",
+  "slug": "/gioi-thieu/cam-ket-dong-hanh-and-kenh-ho-tro",
+  "permalink": "/en/docs/gioi-thieu/cam-ket-dong-hanh-and-kenh-ho-tro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/gioi-thieu/5.-cam-ket-dong-hanh-and-kenh-ho-tro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Phần mềm 360Invoice dành cho ai?",
+    "permalink": "/en/docs/gioi-thieu/360invoice-danh-cho-ai"
+  },
+  "next": {
+    "title": "Sử dụng 360Invoice",
+    "permalink": "/en/docs/category/sử-dụng-360invoice"
+  }
+}

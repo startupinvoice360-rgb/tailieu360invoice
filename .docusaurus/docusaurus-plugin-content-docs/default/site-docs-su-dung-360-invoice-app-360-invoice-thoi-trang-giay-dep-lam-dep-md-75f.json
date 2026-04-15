@@ -1,0 +1,27 @@
+{
+  "id": "su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep",
+  "title": "Thời trang - Giày dép - Làm đẹp",
+  "description": "1. Thêm sản phẩm và phân loại thuộc tính (Size, Màu sắc)",
+  "source": "@site/docs/su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep.md",
+  "sourceDirName": "su-dung-360invoice/app-360invoice",
+  "slug": "/su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep",
+  "permalink": "/en/docs/su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/su-dung-360invoice/app-360invoice/thoi-trang-giay-dep-lam-dep.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tạp hóa - Siêu thị - Đại lý",
+    "permalink": "/en/docs/su-dung-360invoice/app-360invoice/tap-hoa-sieu-thi-dai-ly"
+  },
+  "next": {
+    "title": "Nhà Hàng/Quán",
+    "permalink": "/en/docs/su-dung-360invoice/app-360invoice/nha-hang-quan"
+  }
+}

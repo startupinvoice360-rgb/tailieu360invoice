@@ -1,0 +1,24 @@
+{
+  "id": "trang-quan-ly/khach-hang/them-cua-hang-kho",
+  "title": "Thêm cửa hàng / kho",
+  "description": "Bước 1: Truy cập danh sách khách hàng",
+  "source": "@site/docs/trang-quan-ly/khach-hang/them-cua-hang-kho.md",
+  "sourceDirName": "trang-quan-ly/khach-hang",
+  "slug": "/trang-quan-ly/khach-hang/them-cua-hang-kho",
+  "permalink": "/docs/trang-quan-ly/khach-hang/them-cua-hang-kho",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/trang-quan-ly/khach-hang/them-cua-hang-kho.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gia hạn",
+    "permalink": "/docs/trang-quan-ly/khach-hang/gia-han"
+  },
+  "next": {
+    "title": "Thêm khách hàng",
+    "permalink": "/docs/trang-quan-ly/khach-hang/them-khach-hang"
+  }
+}
