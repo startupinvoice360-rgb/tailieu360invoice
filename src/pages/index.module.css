@@ -1,0 +1,240 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #0f3a5f 0%, #1a1a1a 100%);
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(0, 174, 239, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.heroContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #00AEEF 0%, #0096D1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+[data-theme='dark'] .heroTitle {
+  background: linear-gradient(135deg, #1ac3f5 0%, #34cfff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #424242;
+  margin: 0;
+}
+
+[data-theme='dark'] .heroSubtitle {
+  color: #e0e0e0;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+  margin: 0;
+}
+
+[data-theme='dark'] .heroDescription {
+  color: #b0b0b0;
+}
+
+.heroImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.illustration {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttonPrimary {
+  background-color: #00AEEF !important;
+  border: 2px solid #00AEEF !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.buttonPrimary:hover {
+  background-color: #0096D1 !important;
+  border-color: #0096D1 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 174, 239, 0.3) !important;
+}
+
+.buttonSecondary {
+  background-color: transparent !important;
+  border: 2px solid #00AEEF !important;
+  color: #00AEEF !important;
+  font-weight: 600;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.buttonSecondary:hover {
+  background-color: #f0f9ff !important;
+  border-color: #0096D1 !important;
+  color: #0096D1 !important;
+}
+
+[data-theme='dark'] .buttonSecondary:hover {
+  background-color: #0f3a5f !important;
+}
+
+.buttonLarge {
+  padding: 1rem 2.5rem !important;
+  font-size: 1.1rem !important;
+}
+
+.ctaSection {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #00AEEF 0%, #0096D1 100%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.ctaTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.ctaDescription {
+  font-size: 1.2rem;
+  color: #f0f9ff;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4rem 0;
+  }
+
+  .heroContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .buttonPrimary,
+  .buttonSecondary {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .heroBanner {
+    padding: 3rem 0;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1rem;
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+  }
+
+  .ctaSection {
+    padding: 4rem 0;
+  }
+
+  .ctaTitle {
+    font-size: 1.8rem;
+  }
+}

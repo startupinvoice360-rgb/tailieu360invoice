@@ -1,0 +1,117 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 6rem 0;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+[data-theme='dark'] .features {
+  background-color: #0a0a0a;
+}
+
+.featureSvg {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Feature Card Styling */
+.features :global(.col) {
+  display: flex;
+}
+
+.features :global(.col > div) {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] .features :global(.col > div) {
+  background-color: #1a1a1a;
+  border-color: #404040;
+}
+
+.features :global(.col > div:hover) {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 174, 239, 0.15);
+  border-color: #00AEEF;
+}
+
+.features :global(.col > div:hover .featureSvg) {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px rgba(0, 174, 239, 0.3));
+}
+
+.features :global(.col h3) {
+  color: #00AEEF;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+[data-theme='dark'] .features :global(.col h3) {
+  color: #1ac3f5;
+}
+
+.features :global(.col > div:hover h3) {
+  color: #0096D1;
+}
+
+.features :global(.col p) {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+
+[data-theme='dark'] .features :global(.col p) {
+  color: #b0b0b0;
+}
+
+@media screen and (max-width: 768px) {
+  .features {
+    padding: 4rem 0;
+  }
+
+  .featureSvg {
+    height: 70px;
+    width: 70px;
+  }
+
+  .features :global(.col > div) {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .features {
+    padding: 3rem 0;
+  }
+
+  .featureSvg {
+    height: 60px;
+    width: 60px;
+  }
+
+  .features :global(.col > div) {
+    padding: 1rem;
+  }
+
+  .features :global(.col h3) {
+    font-size: 1.1rem;
+  }
+
+  .features :global(.col p) {
+    font-size: 0.9rem;
+  }
+}
