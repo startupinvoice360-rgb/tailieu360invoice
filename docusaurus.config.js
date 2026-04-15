@@ -14,9 +14,9 @@ const config = {
 
   baseUrl: '/',
   trailingSlash: false,
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'startupinvoice360-rgb',
+projectName: 'tailieu360invoice',
+deploymentBranch: 'gh-pages', 
   onBrokenLinks: 'throw',
 
   i18n: {
