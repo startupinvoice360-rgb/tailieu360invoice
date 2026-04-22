@@ -26,7 +26,7 @@ function HomepageHeader() {
               <Link
                 className={clsx('button', styles.buttonPrimary)}
                 to="/docs/gioi-thieu/intro">
-                Tài liệu hưỡng dẫn sử dụng
+                Tài liệu hướng dẫn sử dụng
               </Link>
               <Link
                 className={clsx('button', styles.buttonSecondary)}
