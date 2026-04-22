@@ -60,7 +60,7 @@ deploymentBranch: 'gh-pages',
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Hưỡng dẫn sử dụng',
+            label: 'Hướng dẫn sử dụng',
           },
           {
             href: 'https://github.com/facebook/docusaurus',
