@@ -4,7 +4,7 @@ sidebar_position: 15
 
 # Khu vui chơi
 
-### **TỔNG QUAN CHỨC NĂNG**
+### **Tổng quan chức năng**
 
 Hướng dẫn bạn thực hiện quy trình cơ bản nhất để vận hành khu vui chơi trên ứng dụng, bao gồm 2 phần chính
 

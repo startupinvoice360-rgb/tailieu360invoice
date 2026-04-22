@@ -4,7 +4,13 @@ sidebar_position: 3
 
 # Tạp hóa - Siêu thị - Đại lý
 
----
+Tổng quan chức năng
+Hướng dẫn cách sử dụng ứng dụng để quản lý hoạt động tạp hóa/siêu thị/đại lý, bao gồm 5 phần chính:
+- Quản lý sản phẩm: Thêm mới sản phẩm, phân loại nhóm hàng, thiết lập giá bán – giá nhập và theo dõi tồn kho.
+- Nhập hàng (nhập kho): Tạo đơn nhập từ nhà cung cấp, cập nhật số lượng hàng hóa, quản lý chi phí như VAT/chiết khấu.
+- Bán hàng: Tạo đơn bán, chọn khách hàng, quét mã vạch sản phẩm, thanh toán và in hóa đơn.
+- Quản lý đơn & trả hàng: Theo dõi, chỉnh sửa, xóa đơn hàng và xử lý các trường hợp trả hàng từ khách.
+- Kiểm kho & cân bằng kho: Kiểm tra số lượng thực tế, đối soát với hệ thống và điều chỉnh tồn kho chính xác.  
 
 ## 1. Thêm sản phẩm mới
 

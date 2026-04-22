@@ -3,7 +3,13 @@ sidebar_position: 9
 ---
 
 # Sửa chữa - Lắp đặt - điện nước - điện lạnh
+Tổng quan chức năng: Hướng dẫn cách sử dụng ứng dụng để quản lý dịch vụ sửa chữa/lắp đặt (điện nước, điện lạnh…), bao gồm 5 phần chính:
 
+- Quản lý nhóm hàng & phân loại: Tạo và phân biệt rõ giữa sản phẩm vật lý (vật tư) và dịch vụ (công sửa chữa) để quản lý phù hợp.
+- Quản lý mặt hàng (sản phẩm & dịch vụ): Thêm vật tư có tồn kho và các dịch vụ không tồn kho, thiết lập giá bán và thông tin liên quan.
+- Nhập hàng (quản lý vật tư): Tạo đơn nhập từ nhà cung cấp, cập nhật số lượng vật tư trong kho.
+- Kiểm kho & cân bằng kho: Kiểm tra số lượng thực tế và điều chỉnh tồn kho khi có chênh lệch.
+- Bán hàng & thanh toán: Tạo đơn dịch vụ, kết hợp cả tiền công và vật tư sử dụng, tính tổng hóa đơn và xử lý thanh toán.
 ### 1. Tạo nhóm mặt hàng
 
 * **Bước 1:** Vào mục Hàng hóa -> Nhấn dấu cộng (+) -> Chọn Thêm nhóm mặt hàng.

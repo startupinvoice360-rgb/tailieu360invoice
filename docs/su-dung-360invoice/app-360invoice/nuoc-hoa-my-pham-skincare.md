@@ -2,7 +2,12 @@
 sidebar_position: 7
 ---
 # Nước hoa - Mỹ Phẩm - Skincare
+Tổng quan chức năng: Hướng dẫn cách sử dụng ứng dụng để quản lý cửa hàng nước hoa/mỹ phẩm/skincare, bao gồm 4 phần chính:
 
+- Quản lý sản phẩm: Tạo sản phẩm mới, thêm thông tin chi tiết như mã vạch, nhãn hiệu, giá nhập – giá bán và hình ảnh sản phẩm.
+- Nhập hàng (quản lý kho): Tạo đơn nhập từ nhà cung cấp, cập nhật số lượng hàng hóa và theo dõi chi phí nhập hàng.
+- Kiểm kho & cân bằng kho: Đối soát số lượng thực tế với hệ thống và điều chỉnh tồn kho khi có chênh lệch.
+- Bán hàng & thanh toán: Tạo đơn bán, chọn/quét mã sản phẩm, áp dụng giảm giá (nếu có), thanh toán và in hóa đơn cho khách.
 ### 1. Thêm sản phẩm mới
 
 * **Bước 1:** Từ màn hình trang chủ, bạn chọn mục **Sản phẩm** và nhấn vào biểu tượng dấu cộng (**+**). _(Nếu đã có sẵn danh sách dạng Excel, bạn có thể chọn "**Upload file Excel**", nếu không hãy chọn "**Thêm sản phẩm**")._

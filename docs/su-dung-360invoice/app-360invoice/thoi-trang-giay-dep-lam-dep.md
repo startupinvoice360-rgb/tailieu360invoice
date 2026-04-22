@@ -3,6 +3,12 @@ sidebar_position: 4
 ---
 
 # Thời trang - Giày dép - Làm đẹp
+Tổng quan chức năng: Hướng dẫn cách sử dụng ứng dụng để quản lý cửa hàng thời trang/giày dép/làm đẹp, bao gồm 4 phần chính:
+
+- Quản lý sản phẩm & thuộc tính: Tạo sản phẩm mới, phân loại theo nhóm hàng và thiết lập các thuộc tính như size, màu sắc để quản lý từng phiên bản sản phẩm.
+- In tem mã vạch & kết nối máy in: Kết nối thiết bị in và tạo/in tem mã vạch để dán lên sản phẩm, hỗ trợ bán hàng nhanh bằng quét mã.
+- Nhập hàng (quản lý kho): Tạo đơn nhập từ nhà cung cấp, nhập số lượng theo từng size/mẫu và tự động cập nhật tồn kho.
+- Bán hàng & thanh toán: Chọn hoặc quét mã sản phẩm, tạo đơn bán, chọn phương thức thanh toán và in hóa đơn cho khách.
 
 ### 1. Thêm sản phẩm và phân loại thuộc tính (Size, Màu sắc)
 

@@ -3,7 +3,12 @@ sidebar_position: 10
 ---
 
 # Điện máy - Điện thoại - Laptop - Điện tử số
+Tổng quan chức năng: Hướng dẫn cách sử dụng ứng dụng để quản lý cửa hàng điện máy/điện thoại/laptop/điện tử, bao gồm 4 phần chính:
 
+- Quản lý sản phẩm & phiên bản: Thêm sản phẩm mới, thiết lập giá nhập – giá bán, quản lý theo mã vạch và phân loại theo màu sắc/phiên bản.
+- Nhập hàng (quản lý kho): Tạo đơn nhập từ nhà cung cấp, cập nhật số lượng tồn kho và kiểm soát giá nhập.
+- Bán hàng & công nợ: Tạo đơn bán, quản lý thông tin khách hàng, hỗ trợ thanh toán linh hoạt và theo dõi công nợ khi khách chưa thanh toán đủ.
+- Quản lý đơn & trả hàng: Theo dõi danh sách đơn hàng, chỉnh sửa/xóa đơn và xử lý trả hàng, đồng thời cập nhật lại tồn kho và công nợ.
 ### 1. Thêm Sản phẩm mới
 
 * Tại màn hình chính, chọn Sản phẩm.

@@ -2,6 +2,13 @@
 sidebar_position: 5
 ---
 # Nhà Hàng/Quán
+Tổng quan chức năng: Hướng dẫn cách sử dụng ứng dụng để quản lý nhà hàng/quán ăn, bao gồm 5 phần chính:
+
+- Quản lý menu & món ăn: Thêm món mới, phân loại nhóm hàng, thiết lập giá bán theo size và tổ chức thực đơn rõ ràng.
+- Quản lý topping (món thêm): Tạo các món đi kèm như topping, add-on và thiết lập giá bán riêng cho từng loại.
+- Quản lý nguyên liệu & nhập kho: Khai báo nguyên liệu, tạo đơn nhập hàng từ nhà cung cấp và theo dõi tồn kho nguyên liệu.
+- Định lượng nguyên liệu (công thức): Thiết lập công thức cho từng món để tự động trừ nguyên liệu trong kho khi bán hàng.
+- Quản lý bàn/phòng & bán hàng: Tạo khu vực, bàn phục vụ và hỗ trợ lên đơn, thanh toán theo từng bàn trong quá trình vận hành.
 
 ### 1. Cách thêm món mới vào Menu
 

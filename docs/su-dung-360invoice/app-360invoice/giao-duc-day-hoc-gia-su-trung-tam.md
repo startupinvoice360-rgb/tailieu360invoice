@@ -3,7 +3,7 @@ sidebar_position: 14
 ---
 # Giáo dục - Dạy học - Gia sư - Trung tâm
 
-### **TỔNG QUAN CHỨC NĂNG**
+### Tổng quan chức năng
 
 Hướng dẫn các thao tác cơ bản để vận hành trung tâm gia sư trên ứng dụng, bao gồm 2 phần chính:
 

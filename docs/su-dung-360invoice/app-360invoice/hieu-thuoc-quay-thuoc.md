@@ -3,7 +3,13 @@ sidebar_position: 8
 ---
 
 # Hiệu thuốc - Quầy thuốc
+Tổng quan chức năng: Hướng dẫn cách sử dụng ứng dụng để quản lý hiệu thuốc/quầy thuốc, bao gồm 5 phần chính:
 
+- Quản lý sản phẩm & lô thuốc: Tạo danh mục thuốc, thiết lập mã vạch, đơn vị tính, nhóm hàng và quản lý theo lô – hạn sử dụng, hỗ trợ quy đổi đơn vị (hộp → viên).
+- Nhập hàng (quản lý kho): Tạo đơn nhập từ nhà cung cấp, nhập hàng theo lô, cập nhật số lượng và giá nhập, hỗ trợ quét mã vạch nhanh.
+- Bán hàng & công nợ: Tạo đơn bán, chọn lô thuốc, quản lý khách hàng, áp dụng giảm giá và theo dõi công nợ khi khách thanh toán chưa đủ.
+- Mẫu đơn (bán nhanh): Tạo sẵn các combo thuốc (đơn thuốc mẫu) để sử dụng nhanh khi bán hàng, tiết kiệm thời gian thao tác.
+- Quản lý đơn & trả hàng: Cho phép sửa/xóa đơn, xử lý trả hàng và tự động cập nhật lại số lượng tồn kho.
 ### 1. Thêm sản phẩm (Tạo danh mục thuốc)
 
 Trước khi bán hay nhập hàng, bạn cần phải tạo thông tin sản phẩm.
