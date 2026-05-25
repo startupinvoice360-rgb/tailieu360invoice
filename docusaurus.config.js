@@ -15,8 +15,8 @@ const config = {
   baseUrl: '/',
   trailingSlash: false,
   organizationName: 'startupinvoice360-rgb',
-projectName: 'tailieu360invoice',
-deploymentBranch: 'gh-pages', 
+  projectName: 'tailieu360invoice',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
 
   i18n: {
@@ -45,7 +45,7 @@ deploymentBranch: 'gh-pages',
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      
+
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -77,19 +77,19 @@ deploymentBranch: 'gh-pages',
             items: [
               {
                 label: 'Tải ứng dụng',
-                href: 'https://360invoice.vn/tai-ung-dung',
+                href: 'https://360invoice.vn/',
               },
               {
                 label: 'Về chúng tôi',
-                href: 'https://360invoice.vn/ve-360invoice',
+                href: 'https://360invoice.vn/',
               },
               {
                 label: 'Tính năng',
-                href: 'https://360invoice.vn/tinh-nang',
+                href: 'https://360invoice.vn/',
               },
               {
                 label: 'Giá cả',
-                href: 'https://360invoice.vn/bang-gia',
+                href: 'https://360invoice.vn/',
               },
             ],
           },
@@ -110,7 +110,7 @@ deploymentBranch: 'gh-pages',
               },
               {
                 label: 'Câu hỏi thường gặp',
-                href: 'https://360invoice.vn/faq',
+                href: 'https://360invoice.vn/',
               },
             ],
           },
