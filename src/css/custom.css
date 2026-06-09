@@ -1,30 +1,370 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * 360Invoice - Custom Docusaurus Theme
+ * Màu sắc và phong cách khớp với 360invoice.vn
  */
 
-/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ===== LIGHT MODE ===== */
 :root {
+  /* Brand colors từ 360invoice.vn */
+  --inv-blue: #00AEEF;
+  --inv-blue-dark: #0096D1;
+  --inv-blue-darker: #007AB3;
+  --inv-blue-light: #33BEFF;
+  --inv-blue-lightest: #E6F7FD;
+  --inv-bg: #ffffff;
+  --inv-bg-soft: #f5fafd;
+  --inv-text: #1a1a2e;
+  --inv-text-muted: #5a6a7a;
+  --inv-border: #e2eef6;
+
+  /* Docusaurus Infima overrides */
   --ifm-color-primary: #00AEEF;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary-dark: #0096D1;
+  --ifm-color-primary-darker: #0088BF;
+  --ifm-color-primary-darkest: #006A96;
+  --ifm-color-primary-light: #1AB8F5;
+  --ifm-color-primary-lighter: #33C2F7;
+  --ifm-color-primary-lightest: #66D2FA;
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-navbar-height: 64px;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 0 0 #e2eef6;
+  --ifm-footer-background-color: #0d1b2a;
+  --ifm-footer-color: #a0b0c0;
+  --ifm-footer-link-color: #a0b0c0;
+  --ifm-footer-link-hover-color: #00AEEF;
+  --ifm-footer-title-color: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 174, 239, 0.08);
+  --ifm-link-color: #00AEEF;
+  --ifm-link-hover-color: #0096D1;
+  --ifm-menu-color-active: #00AEEF;
+  --ifm-breadcrumb-color-active: #00AEEF;
+  --ifm-toc-link-color: #5a6a7a;
+  --ifm-toc-border-color: #e2eef6;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* ===== DARK MODE ===== */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --inv-blue: #1AC3F7;
+  --inv-blue-dark: #00AEEF;
+  --inv-bg: #0d1b2a;
+  --inv-bg-soft: #0f2235;
+  --inv-text: #e8f4fd;
+  --inv-text-muted: #7a9ab8;
+  --inv-border: #1e3a52;
+
+  --ifm-color-primary: #1AC3F7;
+  --ifm-color-primary-dark: #00AEEF;
+  --ifm-color-primary-darker: #0096D1;
+  --ifm-color-primary-darkest: #007AB3;
+  --ifm-color-primary-light: #40CCFA;
+  --ifm-color-primary-lighter: #66D5FB;
+  --ifm-color-primary-lightest: #99E3FD;
+
+  --ifm-background-color: #0d1b2a;
+  --ifm-navbar-background-color: #0d1b2a;
+  --ifm-navbar-shadow: 0 1px 0 0 #1e3a52;
+  --ifm-footer-background-color: #07111c;
+  --ifm-card-background-color: #0f2235;
+  --docusaurus-highlighted-code-line-bg: rgba(26, 195, 247, 0.1);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  border-bottom: 1px solid var(--inv-border);
+  box-shadow: none;
+}
+
+.navbar__brand {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--inv-blue) !important;
+  letter-spacing: -0.3px;
+}
+
+.navbar__logo {
+  height: 32px;
+  width: 32px;
+}
+
+.navbar__link {
+  font-weight: 500;
+  color: var(--inv-text) !important;
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--inv-blue) !important;
+}
+
+/* Nút search trong navbar */
+.navbar__search-input {
+  border-radius: 8px;
+  border: 1px solid var(--inv-border);
+  background-color: var(--inv-bg-soft);
+}
+
+/* ===== SIDEBAR ===== */
+
+/* Sidebar wrapper — nền nhẹ, viền phải */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--inv-border) !important;
+  background-color: #f8fcfe !important;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  background-color: #09182a !important;
+  border-right-color: #1e3a52 !important;
+}
+
+/* Padding tổng cho menu */
+.menu {
+  padding: 1rem 0.75rem !important;
+}
+
+/* ---- Tất cả các link trong sidebar ---- */
+.menu__link {
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #3a5a70;
+  padding: 0.45rem 0.875rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  line-height: 1.5;
+}
+
+[data-theme='dark'] .menu__link {
+  color: #7a9ab8;
+}
+
+/* Hover */
+.menu__link:hover {
+  background-color: #dff2fb;
+  color: #007ab3;
+  text-decoration: none;
+}
+
+[data-theme='dark'] .menu__link:hover {
+  background-color: rgba(0, 174, 239, 0.08);
+  color: #1AC3F7;
+}
+
+/* Active item — thanh xanh bên trái + nền xanh nhạt */
+.menu__link--active {
+  background-color: #dff2fb !important;
+  color: #0078a8 !important;
+  font-weight: 700 !important;
+  border-left: 3px solid #00AEEF;
+  padding-left: calc(0.875rem - 3px);
+}
+
+[data-theme='dark'] .menu__link--active {
+  background-color: rgba(0, 174, 239, 0.1) !important;
+  color: #1AC3F7 !important;
+  border-left-color: #1AC3F7;
+}
+
+/* ---- Category header (collapsible) ---- */
+.menu__list-item-collapsible {
+  border-radius: 8px;
+  margin-bottom: 2px;
+}
+
+.menu__list-item-collapsible > .menu__link {
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #00AEEF;
+  padding: 0.5rem 0.875rem;
+}
+
+[data-theme='dark'] .menu__list-item-collapsible > .menu__link {
+  color: #1AC3F7;
+}
+
+.menu__list-item-collapsible:hover {
+  background-color: #dff2fb;
+}
+
+[data-theme='dark'] .menu__list-item-collapsible:hover {
+  background-color: rgba(0, 174, 239, 0.06);
+}
+
+/* Active category */
+.menu__list-item-collapsible--active {
+  background-color: transparent;
+}
+
+/* ---- Sub-list (nested items) ---- */
+.menu__list .menu__list {
+  border-left: 2px solid #c8e8f8;
+  margin-left: 0.875rem;
+  padding-left: 0.5rem;
+}
+
+[data-theme='dark'] .menu__list .menu__list {
+  border-left-color: #1e3a52;
+}
+
+.menu__list .menu__list .menu__link {
+  font-size: 0.85rem;
+  color: #4a6a80;
+  padding: 0.4rem 0.75rem;
+}
+
+[data-theme='dark'] .menu__list .menu__list .menu__link {
+  color: #5a8aaa;
+}
+
+/* ---- Nút mũi tên expand/collapse ---- */
+.menu__caret {
+  border-radius: 4px;
+  transition: transform 0.2s ease, background-color 0.15s;
+}
+
+.menu__caret:hover {
+  background-color: #c0e8f8 !important;
+}
+
+[data-theme='dark'] .menu__caret:hover {
+  background-color: rgba(0, 174, 239, 0.15) !important;
+}
+
+.menu__caret:before {
+  border-color: #00AEEF !important;
+}
+
+[data-theme='dark'] .menu__caret:before {
+  border-color: #1AC3F7 !important;
+}
+
+/* ---- Phân tách giữa các category ---- */
+.menu__list-item:not(:last-child) {
+  margin-bottom: 2px;
+}
+
+/* Category top-level có thêm khoảng cách */
+.menu > .menu__list > .menu__list-item {
+  margin-bottom: 4px;
+}
+
+/* ---- Doc sidebar version badge (nếu có) ---- */
+.navbar-sidebar .menu {
+  padding-top: 0.5rem !important;
+}
+
+/* ===== DOCS / CONTENT ===== */
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  color: var(--inv-text);
+}
+
+.markdown a {
+  color: var(--inv-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.markdown a:hover {
+  color: var(--inv-blue-dark);
+  text-decoration: underline;
+}
+
+/* Admonitions */
+.alert--info {
+  background-color: #e6f7fd;
+  border-left-color: #00AEEF;
+  color: #0d1b2a;
+}
+
+[data-theme='dark'] .alert--info {
+  background-color: rgba(0, 174, 239, 0.08);
+  border-left-color: #1AC3F7;
+  color: #e8f4fd;
+}
+
+/* ===== PAGINATION ===== */
+.pagination-nav__link {
+  border: 1px solid var(--inv-border);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--inv-blue);
+  box-shadow: 0 4px 12px rgba(0, 174, 239, 0.12);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: linear-gradient(180deg, #0d1b2a 0%, #071018 100%);
+  border-top: 1px solid #1e3a52;
+}
+
+.footer__title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.footer__link-item {
+  color: #7a9ab8;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: #00AEEF;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: #4a6a84;
+  font-size: 0.85rem;
+  border-top: 1px solid #1e3a52;
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* ===== SCROLLBAR (Webkit) ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b0c8da;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00AEEF;
+}
+
+/* ===== CODE BLOCKS ===== */
+.prism-code {
+  border-radius: 10px !important;
+  font-size: 0.88rem !important;
+}
+
+/* ===== TABLE OF CONTENTS ===== */
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--inv-blue) !important;
+}
+
+/* ===== BREADCRUMBS ===== */
+.breadcrumbs__link:hover {
+  color: var(--inv-blue);
 }

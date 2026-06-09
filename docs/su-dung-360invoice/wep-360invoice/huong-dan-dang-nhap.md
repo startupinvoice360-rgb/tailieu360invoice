@@ -29,13 +29,13 @@ sidebar_position: 1
 
 ## 2. Trường hợp thường gặp
 
-### ❌ Không đăng nhập được
+### Không đăng nhập được
 
 - Kiểm tra lại **số điện thoại** và **mật khẩu**  
 - Đảm bảo không nhập sai ký tự  
 - Thử nhập lại  
 
-### 🔑 Quên mật khẩu
+### Quên mật khẩu
 
 <div style={{ textAlign: 'center' }}>
 <figure>
@@ -48,7 +48,7 @@ sidebar_position: 1
 - Nhấn **"Quên mật khẩu"**  
 - Làm theo hướng dẫn để đặt lại mật khẩu  
 
-### 🆕 Chưa có tài khoản
+### Chưa có tài khoản
 
 <div style={{ textAlign: 'center' }}>
   <figure>
