@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_360_invoice_docs=self.webpackChunk_360_invoice_docs||[]).push([["8915"],{6004(e){e.exports=JSON.parse('{"metadata":{"permalink":"/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
